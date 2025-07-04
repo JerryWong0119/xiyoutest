@@ -1,0 +1,13 @@
+local version = {
+	["8.8.88"] = {
+		type = 0,
+		url = "http://1.95.136.32/",
+		size = 5,
+		infoFiles = "http://1.95.136.32/xiyou/files.txt",
+		fileUrlPre = "http://1.95.136.32/xiyou/files/",
+	},
+}
+local binaryVersion = {
+}
+DataServers = { {"1.95.136.32", 7900},}
+return version, binaryVersion
